@@ -1,0 +1,17 @@
+version: '1'
+commands:
+  - name: review:1.0.1
+    description: Review - An Op to manage pull requests
+    public: true
+    remote: true
+    sdk: '2'
+    sourceCodeURL: 'https://github.com/cto-ai/review'
+    run: node /ops/index.js
+    mountCwd: false
+    mountHome: false
+    port:
+      - 3000:3000
+    help:
+      usage: 'ops run review'
+      arguments:
+        none: ''
