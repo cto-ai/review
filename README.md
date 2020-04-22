@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/cto-ai/web-app-generator/master/assets/banner.png)
+![](https://cto.ai/static/oss-banner.png)
 
 # CTO.ai - Official Op - Review
 
